@@ -1,0 +1,102 @@
+body{
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background: #FEB629;
+  font-weight: 50;
+  font-size: 24px;
+  line-height: 40px;
+
+}
+h1,h2,h3{
+
+  color: #79BFCF;
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+h1{
+  font-size: 80px;
+  padding-bottom: -60px;
+}
+img{
+
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+ul > li {
+    display: inline-block;
+    padding: 0 auto;
+    font-size: 100px;
+    margin: 0 auto;
+}
+.button_blue {
+  text-decoration:none;
+  background: #f6f6f6;
+  padding: 8px 24px;
+  border-radius: 16px;
+  border: 2px solid #79BFCF;
+  /* border-width: 1px; */
+  font-size: 50 px;
+  transition: 0.3s ease;
+  color: #79BFCF;
+}
+.button_blue:hover {
+  color: #f6f6f6;
+  background: #79BFCF;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.profile-pic {
+  width: 200px;
+  height:200px;
+  border-radius:50%;
+}
+.card {
+  background:#f6f6f6;
+  padding: 40px 100px;
+  border-radius: 10px;
+  margin: 0 auto;
+  border: #79BFCF;
+  border-style: dotted;
+  border-width: 8px;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.list_inline li {
+  margin: 0 24px;
+}
+.list_inline {
+  margin: 0 auto;
+  text-align: center;
+}
+i {
+  color: #FEB629;
+}
